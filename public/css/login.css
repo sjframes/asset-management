@@ -10,9 +10,10 @@
 
 body{
     font-family:'Poppins',sans-serif;
-    overflow:hidden;
+    overflow-x:hidden;
+    overflow-y:auto;
     background:#09111f;
-}
+}x
 
 .login-page{
 
@@ -133,15 +134,10 @@ body{
 }
 
 .branding h1{
-
-    font-size:58px;
-
+    font-size:54px;
     font-weight:700;
-
     line-height:1;
-
-    margin: bottom 8px;
-
+    margin-bottom:8px;
 }
 
 .branding span{
@@ -255,25 +251,17 @@ body{
 ==========================================*/
 
 .login-card{
-
+    position:relative;
+    z-index:10;
     width:100%;
-
-    max-width:500px;
-
+    max-width:520px;
     background:rgba(17,24,39,.78);
-
     border:1px solid rgba(255,255,255,.08);
-
     backdrop-filter:blur(25px);
-
     border-radius:30px;
-
-    padding:36px 40px;
-
+    padding:40px;
     color:#fff;
-
-    box-shadow:0 50px 100px rgba(0,0,0,.35);
-
+    box-shadow:0 30px 70px rgba(0,0,0,.35);
 }
 
 .login-icon{
@@ -303,27 +291,16 @@ body{
 }
 
 .logo-watermark{
-
     position:absolute;
-
     top:50%;
-
     left:50%;
-
-    transform:translate(-50%,-50%) rotate(-12deg);
-
-    width:950px;
-
-    opacity:.035;
-
-    filter:grayscale(100%) brightness(2.5);
-
+    transform:translate(-50%,-50%);
+    width:520px;
+    max-width:60%;
+    opacity:0.03;
+    object-fit:contain;
     pointer-events:none;
-
-    user-select:none;
-
     z-index:1;
-
 }
 
 .login-card h2{
@@ -772,19 +749,13 @@ transform:translateX(0);
 }
 
 .right-panel{
-
     position:relative;
-
     min-height:100vh;
-
     display:flex;
-
     justify-content:center;
-
     align-items:center;
-
+    padding:50px;
     overflow:hidden;
-
 }
 
 .logo-watermark{
