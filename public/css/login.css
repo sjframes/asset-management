@@ -807,3 +807,10 @@ transform:translateX(0);
     z-index:-1;
 
 }
+
+.version{
+    margin-top:8px;
+    font-size:12px;
+    color:#64748b;
+    text-align:center;
+}

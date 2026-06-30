@@ -279,6 +279,10 @@
 
                     </div>
 
+                    <div class="version">
+    Version 1.0 • Atlas Maharani Group
+</div>
+
                 </div>
 
                 </div>
